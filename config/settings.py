@@ -41,7 +41,10 @@ INSTALLED_APPS = [
     "rest_framework",
     "livraria",
     "rest_framework_simplejwt",
+    "usuario",
 ]
+
+AUTH_USER_MODEL = "usuario.Usuario"
 
 REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": [
